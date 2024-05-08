@@ -1,0 +1,153 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    padding: 26px 156px 0;
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}  
+ul{
+    list-style: none;
+    display: flex;
+    gap: 28px;
+    font-size: 18px;
+    margin-top: 24px;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+.slogan {
+    display: flex;
+    margin-top: 90px;
+    gap: 80px;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin-bottom: 0;
+}
+.slogan p{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-top: 8px;
+    padding: 16px;
+}
+.info img {
+    width: 100px;
+    height: 100px;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+  }
+
+  .picture  {
+    display: flex;
+    justify-content: flex-end;
+    gap: 52px;
+    width: 300px;
+    height: 100px;
+    max-width: 640px;
+    max-height: 216px;
+    border-radius: 12px;
+  }
+  .info {
+    max-width: 200px;
+  }
+
+  button{
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 10px 36px;
+    border: 0;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+.midle{
+    font-size: 36px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+}
+
+.quoet{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 76px 196px;
+}
+.quoettext{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+.quoetby{
+    align-self: flex-end;
+    font-size: 26px;
+    font-weight: 790;
+}
+.action {
+    display: flex;
+    justify-content: center;
+    padding: 78px 98px;
+}
+
+.box {
+    display: flex;
+    background-color: #3882f6;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 120px;
+    padding: 42px 108px;
+    border-radius: 12px;
+    width: 680px;
+}
+
+.left {
+    color: #f9faf8;
+    margin-right: 76px;
+}
+.left h3 {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.left p {
+    font-size: 16px;
+}
+
+.left p,
+h3 {
+    margin: 0;
+}
+
+.button2 {
+    border: 3px solid #f9faf8;
+    font-size: 16px;
+    padding: 6px 20px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 22px 0px;
+}
+
+.footer p {
+    color: #e5e7eb;
+}
